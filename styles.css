@@ -1,0 +1,53 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightcyan;
+    margin: 0;
+    color:darkslategray;
+}
+.card {
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto;              
+  padding: 2rem;
+  background: white;
+  border-left: 4px solid #2c00ae; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.title {
+
+}
+
+#box {
+    color: #f2f0f0;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: #005999;
+    max-width: 4000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: center;
+  text-align: center;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #005999;    /* Official WhatsApp Green */
+  color: #ffffff;               /* Text color */
+  font-family: inherit;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;           /* Rounded corners */
+  text-decoration: none;        /* Removes underline */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
