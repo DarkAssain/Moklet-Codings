@@ -1,0 +1,26 @@
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+     gap: 30px;
+}
+
+
+.card {
+    background-color: rgb(39, 114, 180);
+    border: 1px blue solid;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.card:hover {
+    background-color: cadetblue;
+    font-size: medium;
+}
+
+.card-img {
+    max-width: 300px; 
+    width: 100% ;
+    height: auto;     
+}
